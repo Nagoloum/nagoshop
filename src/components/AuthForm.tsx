@@ -73,7 +73,7 @@ export default function AuthForm({ mode, onSubmit }: Props) {
       </div>
 
       {/* Form */}
-      <form className="space-y-4" onSubmit={handleSubmit} noValidate>
+      <form className="space-y-4" onSubmit={handleSubmit}>
         {/* Full Name (sign-up only) */}
         {isSignUp && (
           <div className="space-y-1.5">
